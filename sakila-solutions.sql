@@ -2,7 +2,7 @@ use sakila;
 
 /*
 	Questions:
-    1  List all actors.
+        1  List all actors.
 	2  Find the surname of the actor with the forename 'John'.	
 	3  Find all actors with surname 'Neeson'.
 	4  Find all actors with ID numbers divisible by 10.
@@ -105,7 +105,3 @@ select first_name, last_name from actor where last_name like "%son" order by fir
 
 -- 25 Which category contains the most films?
 select category, count(title) from film_list group by category order by count(title) desc limit 1;
-
-
-
-
