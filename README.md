@@ -1,1 +1,0 @@
-# qa-week2-sql-challenges
